@@ -34,7 +34,7 @@
 git clone https://github.com/POZEz/CuePad-Soundboard.git
 cd CuePad-Soundboard
 pip install -r requirements.txt
-python CuePad.py
+python cuepad_soundboard.py
 ```
 
 #### Configurando no Discord
@@ -55,5 +55,5 @@ python CuePad.py
 
 ```bash
 pip install pyinstaller pillow
-pyinstaller --noconsole --onefile --clean --collect-all sounddevice --icon="icone.ico" --add-data="icone.ico;." --name="CuePad" CuePad.py
+pyinstaller --noconsole --onefile --clean --collect-all sounddevice --icon="icone.ico" --add-data="icone.ico;." --name="CuePad" cuepad_soundboard.py
 ```
