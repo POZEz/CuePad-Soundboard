@@ -30,10 +30,10 @@
 ### Instalação e Uso
 
 ```bash
-git clone https://github.com/SEU-USUARIO/soundboard-discord.git
-cd soundboard-discord
+git clone https://github.com/pozez/CuePad-Soundboard.git
+cd CuePad-Soundboard
 pip install -r requirements.txt
-python painel_soundboard_discord.py
+python CuePad.py
 ```
 
 #### Configuração rápida no Discord
